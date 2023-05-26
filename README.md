@@ -12,6 +12,5 @@ J'ai également inclus mon fichier .tmux.conf, qui contient ma configuration pou
 N'hésitez pas à explorer les fichiers, à les cloner et à les adapter selon vos besoins. Si vous avez des questions ou des suggestions d'amélioration, je serais ravi d'en discuter.
 
 
-J'espère que cela pourra être utile à certains d'entre vous et faciliter votre configuration de développement. Si vous avez des astuces ou des recommandations à partager, je suis tout ouïe !
-
+J'espère que cela pourra être utile à certains d'entre vous et faciliter votre configuration de développement.
 Bonne journée et bon développement !
