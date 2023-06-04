@@ -1,0 +1,19 @@
+[core]
+	editor = nvim
+
+[init]
+  defaultBranch = main
+
+[pull]
+	rebase = true
+[push]
+	default = current
+[log]
+	decorate = short
+[user]
+	name = Matheo Hanss
+	email = matheo67450@gmail.com
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = false
