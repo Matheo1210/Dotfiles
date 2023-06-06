@@ -72,6 +72,6 @@ M.lsps = {
   sqlls = {},
 }
 
-M.treesitter = {"c", "c_sharp", "css", "html", "javascript", "json", "lua", "python", "typescript", "cpp", "php", "sql"}
+M.treesitter = {"c", "c_sharp", "css", "html", "javascript", "json", "lua", "python", "typescript", "cpp", "php", "sql", "htmldjango"}
 
 return M
