@@ -1,6 +1,14 @@
 local M = {}
 
 M.noice = {
+  views = {
+    hover = {
+      size = {
+        max_height = 10,
+        max_width = 70,
+      }
+    }
+  },
   cmdline = {
     format = {
       search_down = { kind = "search", pattern = "^/", icon = " ", lang = "regex" },
@@ -58,6 +66,9 @@ M.lualine = {
 
 M.hooks = {
   after_setup = function()
+    vim.o.backupdir = "/tmp/.nvim/backup"
+    vim.o.directory = "/tmp/.nvim/swap"
+    vim.o.undodir = "/tmp/.nvim/undo"
     vim.cmd("set relativenumber")
   end
 }
