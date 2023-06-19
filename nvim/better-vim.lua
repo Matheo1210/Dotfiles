@@ -23,6 +23,12 @@ M.noice = {
     view_history = "messages",
     view_search = "virtualtext",
   },
+  routes = {
+    {
+      filter = { event = "notify" },
+      opts = { skip = true, title = "NvimTree" },
+    },
+  },
 }
 
 M.plugins = {
