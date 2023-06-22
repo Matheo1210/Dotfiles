@@ -37,6 +37,9 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[python]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
@@ -191,7 +194,6 @@
   "svelte.enable-ts-plugin": true,
   "workbench.iconTheme": "vscode-icons",
   "editor.codeActionsOnSave": {},
-  "workbench.colorTheme": "Gatito Theme",
   "explorer.confirmDelete": false,
   "editor.indentSize": "tabSize"
 }
