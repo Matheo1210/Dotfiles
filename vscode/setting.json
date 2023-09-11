@@ -21,7 +21,7 @@
   "git.autofetch": true,
   "editor.rulers": [80, 120],
   "namespaceResolver.sortAlphabetically": true,
-  "workbench.startupEditor": "welcomePage",
+  "workbench.startupEditor": "none",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -35,9 +35,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[python]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[yaml]": {
@@ -76,24 +73,64 @@
   "importSorter.generalConfiguration.sortOnBeforeSave": true,
   "debug.showInlineBreakpointCandidates": false,
   "files.insertFinalNewline": true,
+  "sync.gist": "45f7eb9d94749c030d6223ff090bec32",
+  "todo-tree.tree.showScanModeButton": false,
+  "gitlens.views.repositories.files.layout": "tree",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 120,
   "prettier.proseWrap": "always",
+  "gitlens.views.searchAndCompare.files.layout": "tree",
   "search.collapseResults": "auto",
   "autoimport.doubleQuotes": true,
   "autoimport.showNotifications": true,
   "debug.allowBreakpointsEverywhere": true,
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
   "footsteps.highlightColorMaxOpacity": 0.3,
   "vsicons.dontShowNewVersionMessage": true,
+  "githubPullRequests.fileListLayout": "flat",
+  "terminal.integrated.shell.osx": "/bin/zsh",
   "security.workspace.trust.untrustedFiles": "open",
   "editor.inlineSuggest.enabled": true,
+  "remote.containers.executeInWSL": true,
   "editor.autoClosingDelete": "always",
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
   "redhat.telemetry.enabled": false,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
   "editor.accessibilitySupport": "off",
   "editor.formatOnSave": true,
+  //   "[mdx]": {
+  //     "editor.wordWrap": "wordWrapColumn",
+  //     "editor.wordWrapColumn": 120
+  //   }
+  // https://github.com/antfu/vscode-file-nesting-config
+  "explorer.experimental.fileNesting.enabled": true,
+  "explorer.experimental.fileNesting.expand": false,
+  "explorer.experimental.fileNesting.patterns": {
+    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+    "*.js": "$(capture).js.map, $(capture).min.js, $(capture).d.ts",
+    "*.jsx": "$(capture).js",
+    "*.ts": "$(capture).js, $(capture).*.ts",
+    "*.tsx": "$(capture).ts",
+    "index.d.ts": "*.d.ts",
+    "shims.d.ts": "*.d.ts",
+    "go.mod": ".air*, go.sum",
+    ".env": "*.env, .env*, env.d.ts",
+    "dockerfile": ".dockerignore, dockerfile*",
+    "package.json": ".browserslist*, .circleci*, .codecov, .commitlint*, .editorconfig, .eslint*, .flowconfig, .gitlab*, .gitpod*, .huskyrc*, .jshintrc, .markdownlint*, .mocha*, .node-version, .nodemon*, .npm*, .nvmrc, .pm2*, .pnpm*, .prettier*, .releaserc*, .sentry*, .stackblitz*, .stylelint*, .tazerc*, .textlint*, .travis*, .vscode*, .watchman*, .yamllint*, .yarnrc*, api-extractor.json, appveyor*, ava.config.*, azure-pipelines*, build.config.*, commitlint*, crowdin*, cypress.json, dangerfile*, gulp*, jasmine.*, jenkins*, jest.config.*, jsconfig.*, karma*, lerna*, lint-staged*, nest-cli.*, netlify*, nodemon*, nx.*, package-lock.json, playwright.config.*, pm2.*, pnpm*, prettier*, pullapprove*, puppeteer.config.*, renovate*, rollup.config.*, stylelint*, tsconfig.*, tsdoc.*, tslint*, tsup.config.*, turbo*, vercel*, vetur.config.*, vitest.config.*, webpack.config.*, workspace.json, yarn*",
+    "readme.md": "authors, backers.md, changelog*.md, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
+    "cargo.toml": "cargo.lock, rust-toolchain.toml, rustfmt.toml",
+    "gemfile": ".ruby-version, gemfile.lock",
+    "vite.config.*": "*.env, .babelrc, .codecov, .env*, .mocha*, .postcssrc.*, api-extractor.json, ava.config.*, babel.config.*, cypress.json, env.d.ts, index.html, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+    "vue.config.*": "*.env, .babelrc, .codecov, .env*, .mocha*, .postcssrc.*, api-extractor.json, ava.config.*, babel.config.*, cypress.json, env.d.ts, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+    "nuxt.config.*": "*.env, .babelrc, .codecov, .env*, .mocha*, .postcssrc.*, api-extractor.json, ava.config.*, babel.config.*, cypress.json, env.d.ts, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+    "next.config.*": "*.env, .babelrc, .codecov, .env*, .mocha*, .postcssrc.*, api-extractor.json, ava.config.*, babel.config.*, cypress.json, env.d.ts, jasmine.*, jest.config.*, jsconfig.*, karma*, next-env.d.ts, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+    "svelte.config.*": "*.env, .babelrc, .codecov, .env*, .mocha*, .postcssrc.*, api-extractor.json, ava.config.*, babel.config.*, cypress.json, env.d.ts, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+    "remix.config.*": "*.env, .babelrc, .codecov, .env*, .mocha*, .postcssrc.*, api-extractor.json, ava.config.*, babel.config.*, cypress.json, env.d.ts, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, remix.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*"
+  },
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 6,
   "workbench.editor.limit.perEditorGroup": true,
@@ -131,6 +168,7 @@
   "editor.guides.highlightActiveBracketPair": false,
   "editor.occurrencesHighlight": false,
   "git.mergeEditor": false,
+  "gitlens.views.commits.showBranchComparison": "branch",
   "editor.snippets.codeActions.enabled": false,
   "editor.snippetSuggestions": "none",
   "terminal.external.osxExec": "warp.app",
@@ -184,7 +222,16 @@
   "excalidraw.theme": "light",
   "typescript.tsserver.log": "off",
   "workbench.sideBar.location": "left",
+  "editor.colorPicker": false,
   "git.openRepositoryInParentFolders": "never",
+  "panda.debug.enabled": true,
+  "panda.diagnostics.enabled": true,
+  "panda.hovers.instances.enabled": true,
+  "panda.hovers.semantic-colors.enabled": true,
+  "panda.hovers.tokens.conditions.enabled": true,
+  "panda.rem-to-px.enabled": true,
+  "panda.hovers.tokens.css-preview.enabled": true,
+  "panda.color-hints.semantic-tokens.enabled": false,
   "livePreview.portNumber": 5173,
   "livePreview.notifyOnOpenLooseFile": false,
   "git.allowNoVerifyCommit": true,
@@ -192,8 +239,15 @@
   "console-ninja.featureSet": "Community",
   "diffEditor.ignoreTrimWhitespace": false,
   "svelte.enable-ts-plugin": true,
+  "terminal.integrated.env.windows": {},
   "workbench.iconTheme": "vscode-icons",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
   "editor.codeActionsOnSave": {},
-  "explorer.confirmDelete": false,
-  "editor.indentSize": "tabSize"
+
+  "eslint.workingDirectories": ["src"]
 }
