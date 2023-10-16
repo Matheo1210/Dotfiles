@@ -113,7 +113,6 @@
     "js-block": false,
     "bracket-pair": false
   },
-  "editor.minimap.enabled": false,
   "vscode-json-editor.theme": "dark",
   "i18n-ally.ignoredLocales": ["fedid"],
   "emmet.showAbbreviationSuggestions": false,
@@ -189,7 +188,6 @@
   "git.suggestSmartCommit": false,
   "excalidraw.theme": "light",
   "typescript.tsserver.log": "off",
-  "workbench.sideBar.location": "left",
   "git.openRepositoryInParentFolders": "never",
   "panda.debug.enabled": true,
   "panda.diagnostics.enabled": true,
@@ -208,7 +206,7 @@
   "svelte.enable-ts-plugin": true,
   "editor.codeActionsOnSave": {},
   "editor.language.colorizedBracketPairs": [],
-  "terminal.integrated.defaultProfile.osx": "bash",
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "explorer.confirmDelete": false,
   "github.copilot.enable": {
     "*": true,
@@ -221,5 +219,8 @@
     "*.csproj": "xml"
   },
   "explorer.confirmDragAndDrop": false,
-  "eslint.workingDirectories": ["src"]
+  "eslint.workingDirectories": ["src"],
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.minimap.enabled": false,
+  "docker.commands.attach": "${containerCommand} exec -it ${containerId} ${shellCommand}"
 }
