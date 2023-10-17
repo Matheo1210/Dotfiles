@@ -23,6 +23,7 @@
   "editor.rulers": [80, 120],
   "namespaceResolver.sortAlphabetically": true,
   "workbench.startupEditor": "welcomePage",
+  "files.autoSave": "onFocusChange",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -204,7 +205,9 @@
   "console-ninja.featureSet": "Community",
   "diffEditor.ignoreTrimWhitespace": false,
   "svelte.enable-ts-plugin": true,
-  "editor.codeActionsOnSave": {},
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "editor.language.colorizedBracketPairs": [],
   "terminal.integrated.defaultProfile.osx": "zsh",
   "explorer.confirmDelete": false,
@@ -222,5 +225,9 @@
   "eslint.workingDirectories": ["src"],
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "editor.minimap.enabled": false,
-  "docker.commands.attach": "${containerCommand} exec -it ${containerId} ${shellCommand}"
+  "docker.commands.attach": "${containerCommand} exec -it ${containerId} ${shellCommand}",
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "editor.tabSize": 2
 }
