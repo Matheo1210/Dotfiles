@@ -1,0 +1,17 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "shift+ctrl+o",
+    "command": "editor.action.organizeImports",
+    "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+  },
+  {
+    "key": "shift+ctrl+i",
+    "command": "editor.action.sourceAction",
+    "args": {
+      "kind": "source.addMissingImports",
+      "apply": "first"
+    }
+  }
+
+]
