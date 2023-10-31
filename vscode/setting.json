@@ -23,7 +23,6 @@
   "editor.rulers": [80, 120],
   "namespaceResolver.sortAlphabetically": true,
   "workbench.startupEditor": "welcomePage",
-  "files.autoSave": "onFocusChange",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -206,7 +205,6 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "svelte.enable-ts-plugin": true,
   "editor.codeActionsOnSave": {
-
     "source.fixAll.eslint": true
   },
   "editor.language.colorizedBracketPairs": [],
