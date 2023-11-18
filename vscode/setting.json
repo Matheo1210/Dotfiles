@@ -232,5 +232,8 @@
   "editor.tabSize": 2,
   "terminal.integrated.env.windows": {},
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace"
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "diffEditor.wordWrap": "off",
+  "editor.indentSize": "tabSize"
 }
