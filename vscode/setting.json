@@ -1,8 +1,8 @@
 {
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.labelFormat": "default",
-  "workbench.editor.showTabs": true,
+  "workbench.editor.showTabs": "multiple",
   "editor.renderWhitespace": "none",
   "editor.renderControlCharacters": false,
   "files.trimTrailingWhitespace": true,
@@ -207,6 +207,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "editor.fontLigatures": true,
   "editor.language.colorizedBracketPairs": [],
   "terminal.integrated.defaultProfile.osx": "zsh",
   "explorer.confirmDelete": false,
@@ -230,5 +231,6 @@
   "typescript.inlayHints.parameterNames.enabled": "literals",
   "editor.tabSize": 2,
   "terminal.integrated.env.windows": {},
-  "editor.cursorSmoothCaretAnimation": "on"
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace"
 }
