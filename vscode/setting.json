@@ -116,7 +116,6 @@
   "vscode-json-editor.theme": "dark",
   "i18n-ally.ignoredLocales": ["fedid"],
   "emmet.showAbbreviationSuggestions": false,
-  "emmet.showExpandedAbbreviation": "never",
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js, ${capture}.typegen.ts",
@@ -212,7 +211,7 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "explorer.confirmDelete": false,
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "plaintext": true,
     "markdown": false,
     "scminput": false,
@@ -235,5 +234,12 @@
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "diffEditor.wordWrap": "off",
-  "editor.indentSize": "tabSize"
+  "editor.indentSize": "tabSize",
+  "editor.language.brackets": [],
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**",
+    "/opt/homebrew/Cellar/sfml/2.6.1/include",
+    "/opt/homebrew/Cellar/csfml/2.5.1/include"
+  ],
+  "emmet.preferences": {}
 }
