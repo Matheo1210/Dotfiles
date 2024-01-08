@@ -66,7 +66,8 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.accessibilitySupport": "off",
   "terminal.integrated.env.osx": {},
-  "editor.language.colorizedBracketPairs": [],
+  "editor.language.colorizedBracketPairs": [
+  ],
   "editor.indentSize": "tabSize",
   "console-ninja.featureSet": "Community",
   "[javascript]": {
@@ -96,8 +97,6 @@
     "editor.formatOnType": true
   },
   "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools",
-    "editor.formatOnSave": true,
     "editor.tabSize": 4
   },
   "editor.minimap.enabled": false
