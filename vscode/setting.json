@@ -1,7 +1,14 @@
 {
   "workbench.iconTheme": "material-icon-theme",
-  "editor.tabSize": 4,
+  "editor.fontFamily": "CommitMono",
+  "window.zoomLevel": 1,
+  "terminal.integrated.fontFamily": "CommitMono",
   "editor.formatOnSave": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "explicit"
@@ -20,10 +27,17 @@
   },
   "github.copilot.enable": {
     "*": true,
-    "plaintext": true,
-    "markdown": true,
-    "scminput": true
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "jsonc": false
   },
+  "html.completion.attributeDefaultValue": "doublequotes",
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.preferences.jsxAttributeCompletionStyle": "none",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.preferences.jsxAttributeCompletionStyle": "none",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "files.autoSaveDelay": 2000,
   "files.enableTrash": true,
   "workbench.editor.limit.value": 6,
@@ -48,14 +62,42 @@
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
   },
-  "editor.fontFamily": "CommitMono",
-  "terminal.integrated.fontFamily": "CommitMono",
-  "typescript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 1,
   "editor.accessibilitySupport": "off",
   "terminal.integrated.env.osx": {},
   "editor.language.colorizedBracketPairs": [],
   "editor.indentSize": "tabSize",
+  "console-ninja.featureSet": "Community",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  }
 }
