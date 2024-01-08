@@ -56,6 +56,6 @@
   "window.zoomLevel": 1,
   "editor.accessibilitySupport": "off",
   "terminal.integrated.env.osx": {},
+  "editor.language.colorizedBracketPairs": [],
   "editor.indentSize": "tabSize",
-  "editor.language.colorizedBracketPairs": []
 }
