@@ -12,6 +12,12 @@
   "[txt]": {
     "editor.wordWrap": "on"
   },
+  "[c]": {
+    "editor.formatOnSave": false
+  },
+  "[haskell]": {
+    "editor.formatOnSave": false
+  },
   "github.copilot.enable": {
     "*": true,
     "plaintext": true,
@@ -50,5 +56,6 @@
   "window.zoomLevel": 1,
   "editor.accessibilitySupport": "off",
   "terminal.integrated.env.osx": {},
-  "editor.indentSize": "tabSize"
+  "editor.indentSize": "tabSize",
+  "editor.language.colorizedBracketPairs": []
 }
