@@ -2,6 +2,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "editor.minimap.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
     "editor.fontFamily": "CommitMono",
     "window.zoomLevel": 1,
     "terminal.integrated.fontFamily": "CommitMono",
