@@ -1,17 +1,138 @@
-// Place your key bindings in this file to override the defaults
 [
   {
-    "key": "shift+ctrl+o",
+    "key": "cmd+shift+o",
     "command": "editor.action.organizeImports",
     "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
   },
   {
-    "key": "shift+ctrl+i",
+    "key": "cmd+shift+i",
     "command": "editor.action.sourceAction",
     "args": {
       "kind": "source.addMissingImports",
       "apply": "first"
     }
+  },
+  {
+    "key": "ctrl+down",
+    "command": "spaceBlockJumper.moveDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "spaceBlockJumper.moveUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "spaceBlockJumper.selectDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "spaceBlockJumper.selectUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+left",
+    "command": "cursorLineStart",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+right",
+    "command": "cursorLineEnd",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "end",
+    "command": "-cursorEnd",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.navigateBack",
+    "when": "editorTextFocus && canNavigateBack"
+  },
+  {
+    "key": "alt+left",
+    "command": "-workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "alt+right",
+    "command": "-workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "-editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "-editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "cursorLineEndSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "cursorLineStartSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-github.copilot.generate",
+    "when": "editorTextFocus && github.copilot.activated"
+  },
+  {
+    "key": "cmd+e cmd+h",
+    "command": "epitech-tools.header",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+e ctrl+h",
+    "command": "-epitech-tools.header",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+e cmd+c",
+    "command": "epitech-tools.compile"
+  },
+  {
+    "key": "ctrl+e ctrl+c",
+    "command": "-epitech-tools.compile"
+  },
+  {
+    "key": "cmd+e cmd+t",
+    "command": "epitech-tools.run-tests"
+  },
+  {
+    "key": "ctrl+e ctrl+t",
+    "command": "-epitech-tools.run-tests"
+  },
+  {
+    "key": "cmd+e cmd+r",
+    "command": "epitech-tools.clean"
+  },
+  {
+    "key": "ctrl+e ctrl+r",
+    "command": "-epitech-tools.clean"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "f2",
+    "command": "-editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
   }
-
 ]
