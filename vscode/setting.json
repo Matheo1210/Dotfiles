@@ -12,9 +12,18 @@
     "editor.inlineSuggest.enabled": true,
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
+    "workbench.startupEditor": "none",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.inputValidation": "off",
+    "git.openRepositoryInParentFolders": "never",
+    "extensions.ignoreRecommendations": true,
+    "security.workspace.trust.enabled": false,
+    "terminal.integrated.cursorBlinking": true,
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "explicit",
-      "source.organizeImports": "explicit"
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit",
     },
     "[mdx]": {
       "editor.wordWrap": "on"
@@ -22,17 +31,15 @@
     "[txt]": {
       "editor.wordWrap": "on"
     },
-    "[c]": {
-      "editor.formatOnSave": false
-    },
     "[haskell]": {
       "editor.formatOnSave": false
     },
     "github.copilot.enable": {
       "*": true,
-      "yaml": false,
       "plaintext": false,
       "markdown": false,
+      "scminput": false,
+      "yaml": false,
       "jsonc": false
     },
     "html.completion.attributeDefaultValue": "doublequotes",
@@ -62,10 +69,10 @@
     },
     "explorer.confirmDelete": false,
     "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
     "[prisma]": {
       "editor.defaultFormatter": "Prisma.prisma"
     },
-    "explorer.confirmDragAndDrop": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.accessibilitySupport": "off",
     "terminal.integrated.env.osx": {},
@@ -100,9 +107,24 @@
       "editor.formatOnType": true
     },
     "[cpp]": {
-      "editor.tabSize": 4
+      "editor.tabSize": 4,
     },
     "files.associations": {
       "*.h": "c"
-    }
-  }
+    },
+    "npm.keybindingsChangedWarningShown": true,
+    "C_Cpp.files.exclude": {
+      "**/.vscode": true,
+      "**/.vs": true
+    },
+    "window.titleBarStyle": "custom",
+    "haskell.manageHLS": "GHCup",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed",
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true
+}
