@@ -7,7 +7,6 @@
   "editor.fontLigatures": true,
   "window.zoomLevel": 1,
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "editor.formatOnSave": true,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.inlineSuggest.enabled": true,
@@ -107,7 +106,8 @@
     "editor.formatOnType": true
   },
   "[cpp]": {
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -151,5 +151,5 @@
   "workbench.colorTheme": "Atom One Dark",
   "material-icon-theme.folders.theme": "none",
   "editor.formatOnSaveMode": "modifications",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
