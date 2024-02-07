@@ -3,7 +3,8 @@
   "editor.minimap.enabled": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
-  "editor.fontFamily": "CommitMono",
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
   "window.zoomLevel": 1,
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.formatOnSave": true,
@@ -112,6 +113,16 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnType": true
   },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true,
+    "editor.tabSize": 2
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true,
+    "editor.tabSize": 2
+  },
   "[asm-intel-x86-generic]": {
     "editor.defaultFormatter": null,
     "editor.formatOnSave": false,
@@ -130,11 +141,15 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
-  "editor.suggestSelection": "first",
+  "editor.suggestSelection": "recentlyUsed",
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
   "totalTypeScript.hideAllTips": false,
   "totalTypeScript.hideBasicTips": false,
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "Atom One Dark",
+  "material-icon-theme.folders.theme": "none",
+  "editor.formatOnSaveMode": "modifications",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 }
