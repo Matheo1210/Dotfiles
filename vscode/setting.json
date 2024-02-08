@@ -147,4 +147,5 @@
   "totalTypeScript.hideBasicTips": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "material-icon-theme.folders.theme": "none",
+  "workbench.colorTheme": "Atom One Dark",
 }
