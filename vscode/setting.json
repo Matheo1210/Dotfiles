@@ -3,10 +3,10 @@
   "editor.minimap.enabled": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontLigatures": true,
+  "editor.fontFamily": "CommitMono",
   "window.zoomLevel": 1,
   "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.formatOnSave": true,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.inlineSuggest.enabled": true,
@@ -106,22 +106,19 @@
     "editor.formatOnType": true
   },
   "[cpp]": {
-    "editor.tabSize": 4,
-    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 4
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnType": true
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnType": true,
-    "editor.tabSize": 2
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnType": true,
-    "editor.tabSize": 2
   },
   "[asm-intel-x86-generic]": {
     "editor.defaultFormatter": null,
@@ -141,15 +138,12 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
-  "editor.suggestSelection": "recentlyUsed",
+  "editor.suggestSelection": "first",
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
   "totalTypeScript.hideAllTips": false,
   "totalTypeScript.hideBasicTips": false,
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Atom One Dark",
-  "material-icon-theme.folders.theme": "none",
-  "editor.formatOnSaveMode": "modifications",
-  "editor.formatOnSave": true
+  "workbench.colorTheme": "Gatito Theme"
 }
