@@ -3,7 +3,8 @@
   "editor.minimap.enabled": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
-  "editor.fontFamily": "CommitMono",
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
   "window.zoomLevel": 1,
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.formatOnSave": true,
@@ -145,5 +146,5 @@
   "totalTypeScript.hideAllTips": false,
   "totalTypeScript.hideBasicTips": false,
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Gatito Theme"
+  "material-icon-theme.folders.theme": "none",
 }
