@@ -141,5 +141,6 @@
   "typescript.inlayHints.enumMemberValues.enabled": true,
   "window.zoomLevel": 1,
   "console-ninja.featureSet": "Community",
-  "editor.minimap.autohide": true
+  "editor.minimap.autohide": true,
+  "editor.wordWrap": "on"
 }
