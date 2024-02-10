@@ -140,5 +140,6 @@
   "javascript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.enumMemberValues.enabled": true,
   "window.zoomLevel": 1,
-  "console-ninja.featureSet": "Community"
+  "console-ninja.featureSet": "Community",
+  "editor.minimap.autohide": true
 }
