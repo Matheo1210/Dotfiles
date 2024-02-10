@@ -142,5 +142,7 @@
   "window.zoomLevel": 1,
   "console-ninja.featureSet": "Community",
   "editor.minimap.autohide": true,
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden"
 }
