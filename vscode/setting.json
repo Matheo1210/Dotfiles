@@ -35,6 +35,9 @@
   "[cpp]": {
     "editor.tabSize": 4
   },
+  "[hpp]": {
+    "editor.tabSize": 4
+  },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
