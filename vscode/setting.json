@@ -6,7 +6,6 @@
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
-  "eslint.alwaysShowStatus": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -23,8 +22,6 @@
     "comments": false,
     "other": true
   },
-  "todo-tree.tree.showScanModeButton": false,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
