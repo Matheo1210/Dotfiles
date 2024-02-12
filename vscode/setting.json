@@ -121,9 +121,6 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
   "git.enableSmartCommit": true,
   "editor.minimap.autohide": true
 }
