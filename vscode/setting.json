@@ -78,7 +78,6 @@
   },
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "python.terminal.activateEnvironment": false,
-  "lldb.suppressUpdateNotifications": true,
   "workbench.colorTheme": "Atom One Dark",
   "terminal.integrated.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "application.shellEnvironmentResolutionTimeout": 30,
