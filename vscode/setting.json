@@ -68,6 +68,12 @@
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
   },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[c]": {
+    "editor.tabSize": 4
+  },
   "debug.terminal.clearBeforeReusing": true,
   "liveServer.settings.donotVerifyTags": true,
   "[python]": {
@@ -118,9 +124,6 @@
   "tailwindCSS.emmetCompletions": true,
   "totalTypeScript.hideAllTips": true,
   "totalTypeScript.hideBasicTips": true,
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
   "git.enableSmartCommit": true,
   "editor.minimap.autohide": true
 }
