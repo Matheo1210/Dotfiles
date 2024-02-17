@@ -80,7 +80,8 @@
     "editor.formatOnType": true
   },
   "files.associations": {
-    "*.json5": "jsonc"
+    "*.json5": "jsonc",
+    "*.h": "c"
   },
   "workbench.colorTheme": "Atom One Dark",
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
