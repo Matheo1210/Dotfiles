@@ -69,7 +69,8 @@
     "editor.defaultFormatter": "redhat.java"
   },
   "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 4
   },
   "[c]": {
     "editor.tabSize": 4
@@ -126,5 +127,7 @@
   "totalTypeScript.hideAllTips": true,
   "totalTypeScript.hideBasicTips": true,
   "git.enableSmartCommit": true,
-  "editor.minimap.autohide": true
+  "editor.minimap.autohide": true,
+  "git.autofetch": true,
+  "redhat.telemetry.enabled": true
 }
