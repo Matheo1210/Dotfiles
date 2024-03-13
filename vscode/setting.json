@@ -68,13 +68,6 @@
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
   },
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools",
-    "editor.tabSize": 4
-  },
-  "[c]": {
-    "editor.tabSize": 4
-  },
   "debug.terminal.clearBeforeReusing": true,
   "liveServer.settings.donotVerifyTags": true,
   "[python]": {
@@ -84,7 +77,6 @@
     "*.json5": "jsonc",
     "*.h": "c"
   },
-  "workbench.colorTheme": "Atom One Dark",
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "python.terminal.activateEnvironment": false,
   "terminal.integrated.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
@@ -129,5 +121,7 @@
   "git.enableSmartCommit": true,
   "editor.minimap.autohide": true,
   "git.autofetch": true,
-  "redhat.telemetry.enabled": true
+  "redhat.telemetry.enabled": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "workbench.colorTheme": "Gatito Theme"
 }
