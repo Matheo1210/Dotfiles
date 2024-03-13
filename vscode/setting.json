@@ -53,7 +53,7 @@
   "editor.parameterHints.enabled": false,
   "files.exclude": {
     ".vscode": true,
-    "**/.git": false
+    "**/.git": true
   },
   "[dart]": {
     "editor.formatOnSave": false,
