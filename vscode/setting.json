@@ -123,5 +123,5 @@
   "git.autofetch": true,
   "redhat.telemetry.enabled": true,
   "editor.unicodeHighlight.invisibleCharacters": false,
-  "workbench.colorTheme": "Gatito Theme"
+  "workbench.colorTheme": "Atom One Dark"
 }
