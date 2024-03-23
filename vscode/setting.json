@@ -74,8 +74,7 @@
     "editor.formatOnType": true
   },
   "files.associations": {
-    "*.json5": "jsonc",
-    "*.h": "c"
+    "*.json5": "jsonc"
   },
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "python.terminal.activateEnvironment": false,
