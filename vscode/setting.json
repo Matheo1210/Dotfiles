@@ -117,9 +117,5 @@
   "tailwindCSS.emmetCompletions": true,
   "totalTypeScript.hideAllTips": true,
   "totalTypeScript.hideBasicTips": true,
-  "git.enableSmartCommit": true,
-  "editor.minimap.autohide": true,
-  "git.autofetch": true,
-  "redhat.telemetry.enabled": true,
-  "editor.unicodeHighlight.invisibleCharacters": false
-}
+  "git.enableSmartCommit": 
+

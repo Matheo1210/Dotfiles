@@ -34,3 +34,4 @@ kitty-reload() {
   kill -SIGUSR1 $(pidof kitty)
 }
 
+
