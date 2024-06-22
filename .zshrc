@@ -8,6 +8,12 @@ export LIBRARY_PATH="/opt/homebrew/lib:$LIBRARY_PATH"
 export PKG_CONFIG_PATH="/opt/homebrew/lib/pkgconfig:$PKG_CONFIG_PATH"
 
 
+alias uexec='function _umake() { \
+  if [ -z "$(docker ps -q -f name=cfe359aaf6d5)" ]; then \
+    docker start cfe359aaf6d5; \
+  fi; \
+  docker exec -it cfe359aaf6d5 "$@" \
+}; _umake'
 alias g++='g++ -std=c++20'
 alias vim="nvim"
 
