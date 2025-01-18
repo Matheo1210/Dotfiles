@@ -1,126 +1,332 @@
 {
-  "git.confirmSync": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "eslint.codeAction.showDocumentation": {
-    "enable": true
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.fontWeight": "400",
-  "editor.fontSize": 14,
-  "editor.quickSuggestions": {
-    "strings": true,
-    "comments": false,
-    "other": true
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "liveServer.settings.host": "",
-  "editor.formatOnSave": true,
-  "workbench.tree.indent": 10,
-  "workbench.startupEditor": "none",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "extensions.ignoreRecommendations": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
-  "liveServer.settings.file": "dist/apps/web/index.html",
-  "git.ignoreRebaseWarning": true,
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false,
-    "yaml": false,
-    "typescript": false
-  },
-  "typescript.preferences.includePackageJsonAutoImports": "on",
-  "typescript.tsserver.log": "verbose",
-  "update.mode": "start",
-  "workbench.tips.enabled": false,
-  "workbench.editor.limit.enabled": true,
-  "editor.parameterHints.enabled": false,
-  "files.exclude": {
-    ".vscode": true,
-    "**/.git": false
-  },
-  "[dart]": {
-    "editor.formatOnSave": false,
-    "editor.formatOnType": true,
-    "editor.rulers": [80],
-    "editor.selectionHighlight": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.suggestSelection": "recentlyUsed",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": "off"
-  },
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "debug.terminal.clearBeforeReusing": true,
-  "liveServer.settings.donotVerifyTags": true,
-  "[python]": {
-    "editor.formatOnType": true
-  },
-  "files.associations": {
-    "*.json5": "jsonc"
-  },
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
-  "python.terminal.activateEnvironment": false,
-  "lldb.suppressUpdateNotifications": true,
-  "terminal.integrated.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
-  "application.shellEnvironmentResolutionTimeout": 30,
-  "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.folders.theme": "none",
-  "editor.fontLigatures": true,
-  "window.autoDetectColorScheme": true,
-  "editor.suggestSelection": "recentlyUsedByPrefix",
-  "editor.tabSize": 2,
-  "window.commandCenter": false,
-  "workbench.activityBar.location": "top",
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.wordWrap": "on",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
-  "editor.guides.bracketPairs": true,
-  "editor.linkedEditing": true,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.patterns": {
-    "*.cts": "${capture}.typegen.ts",
-    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-    "*.jsx": "${capture}.js",
-    "*.mts": "${capture}.typegen.ts",
-    "*.ts": "${capture}.js, ${capture}.typegen.ts",
-    "*.tsx": "${capture}.ts, ${capture}.typegen.ts",
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
-    "tsconfig.json": "tsconfig.*.json"
-  },
-  "tailwindCSS.classAttributes": [
-    "class",
-    "className",
-    "ngClass",
-    "style",
-    "classNames"
-  ],
-  "tailwindCSS.emmetCompletions": true,
-  "totalTypeScript.hideAllTips": true,
-  "totalTypeScript.hideBasicTips": true,
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  }
+    "[astro]": {
+        "editor.defaultFormatter": "astro-build.astro-vscode"
+    },
+    "[handlebars]": {
+        "editor.formatOnSave": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "autoimport.doubleQuotes": true,
+    "autoimport.showNotifications": true,
+    "console-ninja.featureSet": "Community",
+    "cucumberautocomplete.pureTextSteps": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.showInlineBreakpointCandidates": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+    "editor.accessibilitySupport": "off",
+    "editor.autoClosingDelete": "always",
+    "editor.codeActionWidget.includeNearbyQuickFixes": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.guides.highlightActiveIndentation": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.lightbulb.enabled": "onCode",
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.pasteAs.enabled": false,
+    "editor.pasteAs.preferences": [
+        "text.plain"
+    ],
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "other": "on",
+        "strings": "on"
+    },
+    "editor.quickSuggestionsDelay": 50,
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.snippets.codeActions.enabled": false,
+    "editor.stickyScroll.enabled": true,
+    "editor.suggest.localityBonus": true,
+    "editor.suggest.showConstructors": false,
+    "editor.suggest.showDeprecated": false,
+    "editor.suggest.showEvents": false,
+    "editor.suggest.showFields": true,
+    "editor.suggest.showFiles": true,
+    "editor.suggest.showFolders": true,
+    "editor.suggest.showIssues": false,
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.showModules": false,
+    "editor.suggest.showOperators": false,
+    "editor.suggest.showReferences": false,
+    "editor.suggest.showSnippets": true,
+    "editor.suggest.showStructs": false,
+    "editor.suggest.showWords": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "emmet.showAbbreviationSuggestions": false,
+    "emmet.showExpandedAbbreviation": "never",
+    "explorer.autoRevealExclude": {
+        "**/node_modules": false
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*.js": "$(capture).js.map, $(capture).min.js, $(capture).d.ts",
+        "*.jsx": "$(capture).js",
+        "*.ts": "${capture}.js, ${capture}.typegen.ts",
+        "*.tsx": "${capture}.stories.ts",
+        ".env": "*.env, .env*, env.d.ts",
+        ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+        "cargo.toml": "cargo.lock, rust-toolchain.toml, rustfmt.toml",
+        "dockerfile": ".dockerignore, dockerfile*",
+        "gemfile": ".ruby-version, gemfile.lock",
+        "*.cts": "${capture}.typegen.ts",
+        "go.mod": ".air*, go.sum",
+        "*.mts": "${capture}.typegen.ts",
+        "index.d.ts": "*.d.ts",
+        "next.config.*": "*.env, .babelrc, .codecov, .env*, .mocha*, .postcssrc.*, api-extractor.json, ava.config.*, babel.config.*, cypress.json, env.d.ts, jasmine.*, jest.config.*, jsconfig.*, karma*, next-env.d.ts, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+        "nuxt.config.*": "*.env, .babelrc, .codecov, .env*, .mocha*, .postcssrc.*, api-extractor.json, ava.config.*, babel.config.*, cypress.json, env.d.ts, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+        "package.json": ".browserslist*, .circleci*, .codecov, .commitlint*, .editorconfig, .eslint*, .flowconfig, .gitlab*, .gitpod*, .huskyrc*, .jshintrc, .markdownlint*, .mocha*, .node-version, .nodemon*, .npm*, .nvmrc, .pm2*, .pnpm*, .prettier*, .releaserc*, .sentry*, .stackblitz*, .stylelint*, .tazerc*, .textlint*, .travis*, .vscode*, .watchman*, .yamllint*, .yarnrc*, api-extractor.json, appveyor*, ava.config.*, azure-pipelines*, build.config.*, commitlint*, crowdin*, cypress.json, dangerfile*, gulp*, jasmine.*, jenkins*, jest.config.*, jsconfig.*, karma*, lerna*, lint-staged*, nest-cli.*, netlify*, nodemon*, nx.*, package-lock.json, playwright.config.*, pm2.*, pnpm*, prettier*, pullapprove*, puppeteer.config.*, renovate*, rollup.config.*, stylelint*, tsconfig.*, tsdoc.*, tslint*, tsup.config.*, turbo*, vercel*, vetur.config.*, vitest.config.*, webpack.config.*, workspace.json, yarn*",
+        "readme.md": "authors, backers.md, changelog*.md, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
+        "remix.config.*": "*.env, .babelrc, .codecov, .env*, .mocha*, .postcssrc.*, api-extractor.json, ava.config.*, babel.config.*, cypress.json, env.d.ts, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, remix.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+        "shims.d.ts": "*.d.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "svelte.config.*": "*.env, .babelrc, .codecov, .env*, .mocha*, .postcssrc.*, api-extractor.json, ava.config.*, babel.config.*, cypress.json, env.d.ts, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+        "vite.config.*": "*.env, .babelrc, .codecov, .env*, .mocha*, .postcssrc.*, api-extractor.json, ava.config.*, babel.config.*, cypress.json, env.d.ts, index.html, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+        "vue.config.*": "*.env, .babelrc, .codecov, .env*, .mocha*, .postcssrc.*, api-extractor.json, ava.config.*, babel.config.*, cypress.json, env.d.ts, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*"
+    },
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "files.associations": {
+        "*.json5": "json5"
+    },
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.netlify/**": true,
+        "**/.next/**": true,
+        "**/.pnpm/**": true,
+        "**/build/**": true,
+        "**/dist/**": true,
+        "**/docker/**": true,
+        "**/node_modules/**": true,
+        "**/packages/**/dist": true
+    },
+    "footsteps.highlightColorMaxOpacity": 0.3,
+    "git.allowNoVerifyCommit": true,
+    "git.autoRepositoryDetection": "subFolders",
+    "git.autofetch": true,
+    "git.confirmNoVerifyCommit": false,
+    "git.mergeEditor": false,
+    "git.openRepositoryInParentFolders": "never",
+    "git.suggestSmartCommit": false,
+    "github.copilot.advanced": {},
+    "github.copilot.editor.enableCodeActions": false,
+    "github.copilot.enable": {
+        "*": true,
+        "markdown": true,
+        "plaintext": false,
+        "scminput": false
+    },
+    "html.autoClosingTags": false,
+    "i18n-ally.enabledFrameworks": [
+        "i18next",
+        "react-i18next"
+    ],
+    "i18n-ally.extract.keygenStyle": "kebab-case",
+    "i18n-ally.ignoredLocales": [
+        "fedid"
+    ],
+    "i18n-ally.keystyle": "flat",
+    "i18n-ally.pathMatcher": "{locale}/{namespaces}.json",
+    "i18n-ally.sortKeys": true,
+    "importSorter.generalConfiguration.sortOnBeforeSave": true,
+    "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 120,
+    "importSorter.importStringConfiguration.quoteMark": "double",
+    "importSorter.sortConfiguration.customOrderingRules.rules": [
+        {
+            "disableSort": true,
+            "orderLevel": 10,
+            "regex": "^$",
+            "type": "importMember"
+        },
+        {
+            "orderLevel": 20,
+            "regex": "^@chakra-ui"
+        },
+        {
+            "orderLevel": 30,
+            "regex": "^[@]"
+        },
+        {
+            "orderLevel": 40,
+            "regex": "^[.]"
+        }
+    ],
+    "importSorter.sortConfiguration.removeUnusedDefaultImports": true,
+    "importSorter.sortConfiguration.removeUnusedImports": true,
+    "javascript.autoClosingTags": false,
+    "javascript.preferences.importModuleSpecifier": "project-relative",
+    "livePreview.notifyOnOpenLooseFile": false,
+    "livePreview.portNumber": 5173,
+    "mdx.server.enable": false,
+    "notebook.stickyScroll.enabled": true,
+    "panda.color-hints.color-preview.enabled": true,
+    "panda.diagnostics.enabled": true,
+    "panda.hovers.enabled": false,
+    "panda.hovers.instances.enabled": true,
+    "panda.hovers.semantic-colors.enabled": true,
+    "panda.hovers.tokens.conditions.enabled": true,
+    "panda.hovers.tokens.css-preview.enabled": true,
+    "panda.rem-to-px.enabled": true,
+    "peacock.affectActivityBar": false,
+    "peacock.affectStatusBar": false,
+    "prettier.enableDebugLogs": true,
+    "prettier.proseWrap": "always",
+    "redhat.telemetry.enabled": false,
+    "search.collapseResults": "auto",
+    "search.exclude": {
+        "**/packages/**/dist": true
+    },
+    "search.followSymlinks": false,
+    "search.smartCase": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "smartClicks.rules": {
+        "bracket-pair": false,
+        "dash": false,
+        "html-attr": false,
+        "html-element": false,
+        "js-arrow-fn": false,
+        "js-assign": false,
+        "js-block": false,
+        "js-colon": false
+    },
+    "terminal.external.osxExec": "warp.app",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "terminal.integrated.scrollback": 1000,
+    "terminal.integrated.tabs.title": "${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+        {
+            "backgroundColor": "#f06292",
+            "color": "#fff",
+            "text": "eslint-disable"
+        },
+        {
+            "backgroundColor": "#0369a1",
+            "color": "#fff",
+            "text": "@ts-ignore"
+        },
+        {
+            "backgroundColor": "#0369a1",
+            "color": "#fff",
+            "text": "@ts-expect-error"
+        },
+        {
+            "backgroundColor": "#047857",
+            "color": "#fff",
+            "text": "TODO"
+        },
+        {
+            "backgroundColor": "#3b4468",
+            "color": "#fff",
+            "text": "console.log("
+        }
+    ],
+    "totalTypeScript.hiddenTips": [
+        "typing-function-parameters",
+        "passing-generics-to-types",
+        "union-type",
+        "undefined-keyword",
+        "basic-types",
+        "record-utility-type",
+        "generic-slots-in-functions",
+        "variable-type-annotation",
+        "as-assertion",
+        "any-type",
+        "array-type",
+        "type-alias-declaration",
+        "typeof",
+        "type-alias-with-generics",
+        "ts-object-type",
+        "type-alias-with-multiple-generics",
+        "keyof",
+        "optional-object-property",
+        "omit-utility-type",
+        "conditional-type",
+        "infer",
+        "never-keyword",
+        "nested-conditional-type",
+        "tuple-type",
+        "literal-type",
+        "in-operator-narrowing",
+        "non-null-expression",
+        "returntype-utility-type",
+        "function-return-type",
+        "as-const",
+        "parameters-utility-type",
+        "null-keyword",
+        "interface-declaration"
+    ],
+    "totalTypeScript.hideAllTips": true,
+    "totalTypeScript.hideBasicTips": true,
+    "typescript.autoClosingTags": false,
+    "typescript.experimental.expandableHover": true,
+    "typescript.experimental.updateImportsOnPaste": false,
+    "typescript.preferences.importModuleSpecifier": "project-relative",
+    "typescript.preferences.includePackageJsonAutoImports": "on",
+    "typescript.preferences.preferTypeOnlyAutoImports": true,
+    "typescript.referencesCodeLens.enabled": false,
+    "typescript.referencesCodeLens.showOnAllFunctions": false,
+    "typescript.suggest.includeCompletionsForImportStatements": true,
+    "typescript.tsserver.log": "off",
+    "vscode-json-editor.theme": "dark",
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.activityBar.location": "bottom",
+    "workbench.editor.labelFormat": "default",
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 5,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "none",
+    "xml.completion.autoCloseTags": false,
+    "editor.fontWeight": "400",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "explorer.confirmDelete": false,
 }
