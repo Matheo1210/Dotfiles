@@ -12,10 +12,10 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "biomejs.biome"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[json]": {
-        "editor.defaultFormatter": "biomejs.biome"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -24,10 +24,10 @@
         "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
     },
     "[typescript]": {
-        "editor.defaultFormatter": "biomejs.biome"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescriptreact]": {
-        "editor.defaultFormatter": "biomejs.biome"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[vue]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -47,7 +47,7 @@
     "editor.accessibilitySupport": "off",
     "editor.autoClosingDelete": "always",
     "editor.codeActionWidget.includeNearbyQuickFixes": false,
-    "editor.defaultFormatter": "biomejs.biome",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.guides.highlightActiveBracketPair": false,
     "editor.guides.highlightActiveIndentation": false,
@@ -201,9 +201,7 @@
     "livePreview.notifyOnOpenLooseFile": false,
     "livePreview.portNumber": 5173,
     "mdx.server.enable": false,
-    "namespaceResolver.sortAlphabetically": true,
     "notebook.stickyScroll.enabled": true,
-    "npm.keybindingsChangedWarningShown": true,
     "panda.color-hints.color-preview.enabled": true,
     "panda.diagnostics.enabled": true,
     "panda.hovers.enabled": false,
@@ -331,4 +329,5 @@
     "editor.fontSize": 14,
     "terminal.integrated.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "xml.completion.autoCloseTags": false,
+    "git.confirmSync": false,
 }
