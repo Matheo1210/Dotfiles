@@ -305,7 +305,6 @@
     "totalTypeScript.hideBasicTips": true,
     "typescript.autoClosingTags": false,
     "typescript.experimental.expandableHover": true,
-    "typescript.experimental.updateImportsOnPaste": false,
     "typescript.preferences.importModuleSpecifier": "project-relative",
     "typescript.preferences.includePackageJsonAutoImports": "on",
     "typescript.preferences.preferTypeOnlyAutoImports": true,
@@ -322,7 +321,7 @@
     "workbench.editor.limit.value": 5,
     "workbench.editor.tabSizing": "shrink",
     "workbench.iconTheme": "vscode-icons",
-    "workbench.sideBar.location": "right",
+    "workbench.sideBar.location": "left",
     "workbench.startupEditor": "none",
     "editor.fontWeight": "400",
     "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
@@ -330,4 +329,10 @@
     "terminal.integrated.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "xml.completion.autoCloseTags": false,
     "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
 }
