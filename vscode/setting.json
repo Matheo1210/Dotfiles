@@ -18,7 +18,7 @@
   "files.enableTrash": true,
   "workbench.editor.limit.value": 6,
   "workbench.editor.limit.enabled": true,
-  "workbench.colorTheme": "GitHub Dark",
+  "workbench.colorTheme": "Default Dark Modern",
   "indentRainbow.colors": [
     "rgba(255,255,64,0.02)",
     "rgba(127,255,127,0.02)",
@@ -44,5 +44,6 @@
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "window.zoomLevel": 1,
-  "editor.accessibilitySupport": "off"
+  "editor.accessibilitySupport": "off",
+  "git.autofetch": true
 }
