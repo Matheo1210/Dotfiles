@@ -7,18 +7,12 @@
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "explicit"
   },
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": true,
-    "markdown": true,
-    "scminput": true
-  },
   "files.autoSave": "onFocusChange",
   "files.autoSaveDelay": 2000,
   "files.enableTrash": true,
   "workbench.editor.limit.value": 6,
   "workbench.editor.limit.enabled": true,
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "GitHub Dark",
   "indentRainbow.colors": [
     "rgba(255,255,64,0.02)",
     "rgba(127,255,127,0.02)",
@@ -45,5 +39,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "window.zoomLevel": 1,
   "editor.accessibilitySupport": "off",
-  "git.autofetch": true
+  "git.autofetch": true,
+  "git.enableSmartCommit": true
 }
