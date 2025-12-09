@@ -186,5 +186,6 @@
   "workbench.activityBar.orientation": "vertical",
   "workbench.colorTheme": "Default Dark Modern",
   "cursor.composer.usageSummaryDisplay": "always",
-  "terminal.integrated.defaultProfile.osx": "zsh"
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "workbench.iconTheme": "material-icon-theme"
 }
