@@ -79,6 +79,7 @@
   },
   "cmake.showNotAllDocumentsSavedQuestion": false,
   "terminal.external.linuxExec": "gnome-terminal",
+  "workbench.iconTheme": "material-icon-theme",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -154,6 +155,7 @@
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*"
   },
+  "githubLocalActions.dockerDesktopPath": "C:/Program Files/Docker/Docker/Docker Desktop.exe",
   "vitest.maximumConfigs": 100,
   "vitest.applyDiagnostic": false,
   "vitest.disableWorkspaceWarning": true,
@@ -185,7 +187,5 @@
   "workbench.layoutControl.enabled": false,
   "workbench.activityBar.orientation": "vertical",
   "workbench.colorTheme": "Default Dark Modern",
-  "cursor.composer.usageSummaryDisplay": "always",
-  "terminal.integrated.defaultProfile.osx": "zsh",
-  "workbench.iconTheme": "material-icon-theme"
+  "cursor.composer.usageSummaryDisplay": "always"
 }
